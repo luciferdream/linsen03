@@ -1,5 +1,5 @@
 ﻿function calculate_median(arr) {
-function sum(a(),n)//传入n值
+function sum(a(),n)
 {
 var i;A=0;
 for(i=0;i<n;i++)
@@ -18,5 +18,4 @@ document.write(B);
 return 0;
 }
 }
-
 module.exports = calculate_median;
