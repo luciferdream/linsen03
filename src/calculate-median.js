@@ -1,21 +1,17 @@
-﻿function calculate_median(arr) {
-function sum(a(),n)
-{
-var i;A=0;
-for(i=0;i<n;i++)
-if(i%2==0)
-A+=a(i);
-return A;
+function calculate_median(arr) {
+	var tempArr = new Array();
+	var k = 0;
+	for(var i = 0; i < arr.length; i++){
+		if(i%2 == 0)
+			tempArr = arr[i];
+	}
+	tempArr = tempArr.sort();
+	if(tempArr.length%2 == 0) return tempArr
+
+[tempArr.length/2];
+	else return (tempArr[tempArr.length/2] + tempArr
+
+[tempArr.length/2 + 1]) / 2;
 }
-int main(){
-var i,B=0,n;
-new a(1000);
-n=prompt();
-for(i=0;i<n;i++)
-a(i)=prompt();
-B=function sum(a,n);
-document.write(B);
-return 0;
-}
-}
+
 module.exports = calculate_median;
